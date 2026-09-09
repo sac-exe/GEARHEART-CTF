@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project GearHeart</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to Project GerarHeart</h1>
+    <p>Logged in as: {{ username }}</p>
+    <p><a class="linka" href="/logout">Logout</a></p>
+    <p><a class="linka" href="/broadcast">Admin Broadcast Panel</a></p>
+
+    <h2>Announcements</h2>
+    <p>{{ announcement }}</p>
+
+    <!-- ZGV2LW5vdGU6IGRlYnVnIGVuZHBvaW50IGxlZnQgb24gL19fZGVidWdfc3RhdHVzIC0gcmVtb3ZlIGJlZm9yZSBwcm9kIQ== -->
+
+</body>
+</html>
