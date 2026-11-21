@@ -51,8 +51,8 @@ The challenge involves the following stages:
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <REPOSITORY_FOLDER>
+git clone (https://github.com/sac-exe/GEARHEART-CTF.git)
+cd GEARHEART-CTF
 ```
 
 Build the Docker image:
